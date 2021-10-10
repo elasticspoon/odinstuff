@@ -36,6 +36,8 @@ button {
 .content {
     flex-grow: 1;
     background-color: white;
+    max-width: 800px;
+    align-self: center;
 }
 
 .content-box {
@@ -51,7 +53,7 @@ button {
 }
 
 .inner-box-flex {
-    padding: 0 30px;
+    padding-right: 30px;
     row-gap: 8px;
 }
 
@@ -87,8 +89,10 @@ button {
 
 .header {
     justify-content: space-between;
-    padding: 0 10%;
     padding-top: 16px;
+    max-width: 800px;
+    min-width: 800px;
+    align-self: center;
 }
 
 li {
@@ -97,7 +101,7 @@ li {
 
 .cb {
     flex-grow: 1;
-    padding: 100px 10%;
+    padding: 100px 0;
 }
 
 .footer {
