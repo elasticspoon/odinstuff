@@ -4,7 +4,24 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     align-items: stretch;
-    margin: auto 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 4px 24px;
+    border: 0;
+    align-self: flex-start;
+}
+
+#button-2 {
+    border: 2px solid white;
+    align-self: center;
 }
 
 .column {
@@ -16,15 +33,125 @@ body {
     display: flex;
 }
 
-.header {
-    justify-content: space-between;
-}
-
 .content {
     flex-grow: 1;
-    justify-content: space-evenly;
+    background-color: white;
+}
+
+.content-box {
+    color: #1F2937;
+}
+
+.content-box-one {
+    background-color: #1F2937;
+}
+
+.inner-box, .inner-box-flex {
+    flex: 1;
+}
+
+.inner-box-flex {
+    padding: 0 30px;
+    row-gap: 8px;
+}
+
+.inner-box {
+    justify-content: center;
+}
+
+.content-box-three {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    background-color: #E5E7EB;
+}
+
+.content-box-three div {
+    padding: 20px 0;
+}
+
+.test {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color :#F9FAF8;
+    padding: 50px 0;
+    justify-content: space-around
+}
+
+.content-box.column {
+    flex-grow: 0;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 0 10%;
+    padding-top: 16px;
+}
+
+li {
+    padding-left: 16px;
+}
+
+.cb {
+    flex-grow: 1;
+    padding: 100px 10%;
 }
 
 .footer {
-    align-self: center;
+    text-align: center;
+    padding: 16px 0;
+}
+
+#info-title {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+
+.rounded-image {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    min-height: 150px;
+}
+
+.image-text {
+    flex-grow: 0;
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight:900;
+}
+
+.content, a, .footer{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.inner-box {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.qoute-author {
+    color: black;
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
 }
