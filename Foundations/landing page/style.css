@@ -36,16 +36,19 @@ button {
 .content {
     flex-grow: 1;
     background-color: white;
-    max-width: 800px;
-    align-self: center;
 }
 
 .content-box {
     color: #1F2937;
 }
 
+.wrapper {
+    justify-content: space-evenly;
+}
+
 .content-box-one {
     background-color: #1F2937;
+    max-width: 800px;
 }
 
 .inner-box, .inner-box-flex {
@@ -90,8 +93,6 @@ button {
 .header {
     justify-content: space-between;
     padding-top: 16px;
-    max-width: 800px;
-    min-width: 800px;
     align-self: center;
 }
 
@@ -158,4 +159,21 @@ li {
     font-size: 30px;
     font-weight: 600;
     font-style: normal;
+}
+
+.spacer{
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.one {
+    background-color: #1F2937;
+}
+
+.wrapped {
+    min-width: 800px;
+    max-width: 800px;;
+}
+.four {
+    background-color: #E5E7EB;
 }
