@@ -1,0 +1,5 @@
+{
+    "ruby.rubocop.executePath": "/usr/local/bin/",
+    "ruby.rubocop.suppressRubocopWarnings": true,
+    "ruby.rubocop.configFilePath": "/home/bandito/.rubocop.yml"
+}
